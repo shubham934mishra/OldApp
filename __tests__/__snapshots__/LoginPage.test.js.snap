@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "padding": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderColor": "#7a42f4",
+        "borderWidth": 1,
+        "height": 40,
+        "margin": 15,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="User Name"
+      placeholderTextColor="#003f5c"
+      rejectResponderTermination={true}
+      testID="TextInput"
+      underlineColorAndroid="transparent"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "borderColor": "#7a42f4",
+        "borderWidth": 1,
+        "height": 40,
+        "margin": 15,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Password"
+      placeholderTextColor="#003f5c"
+      rejectResponderTermination={true}
+      testID="TextInputPass"
+      underlineColorAndroid="transparent"
+    />
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#7a42f4",
+        "height": 40,
+        "margin": 15,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+    testID="loginButton"
+  >
+    <Text
+      style={
+        Object {
+          "alignSelf": "center",
+          "color": "white",
+        }
+      }
+    >
+      LOGIN
+    </Text>
+  </View>
+</View>
+`;
